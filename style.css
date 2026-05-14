@@ -1,0 +1,137 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: url(./images/hero__back.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.container{
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 40px 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.search__input{
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:none;
+}
+.hero{
+    margin-top: 30px;
+}
+.hero h1{
+    font-size: 54px;
+
+}
+.hero button{
+    margin-top: 90px;
+    background: #76B900;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.gaming__content{
+    text-align: center;
+}
+.gaming__content h2{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.gaming__catalog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.gaming__catalog li{
+    width: 290px;
+    border: none;
+    box-shadow: 0px 17px 27px -4px #7d7d7d;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gaming__catalog li h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+.gaming__catalog li button{
+    background: none;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    content: ">";
+}
+
+footer section {
+    max-width: 1440px;
+    margin-top: 30px;
+    background-color: #FFFCFC;
+    display: flex;
+    gap: 50px;
+    color: #67B900;
+    margin: 0 auto;
+    font-weight: 700;
+    
+}
+
+footer h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+
+}
+
+footer p {
+    color: black;
+    font-size: 18px;
+}
+
+.bottom .container{
+    display: flex;
+    padding: 80px 50px;
+    color: #666666;
+    font-size: 18px;
+    font-weight: 800;
+    justify-content: space-between;
+}
+
+footer .btn {
+    margin-top: 30px;
+    padding: 18px 27px;
+   background-color: #76B900;
+   font-size: 18px;
+   font-weight: 700;
+   border: none;
+}
